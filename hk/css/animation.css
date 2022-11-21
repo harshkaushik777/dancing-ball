@@ -1,0 +1,48 @@
+body
+{
+    margin: 0;
+}
+.div1
+{
+    height: 207px;
+    width: 207px;
+    background-image: linear-gradient(purple,orange);
+    border-radius: 50%;
+    position: absolute;
+
+    animation-name: batch2;
+    animation-duration: 3s;
+    animation-delay: 3S;
+    animation-iteration-count: infinite;
+}
+
+@keyframes batch2{
+    0%{
+        left:0;
+        top:0;
+        background-image:linear-gradient(yellow);
+    }
+    15%{
+        left:00px;
+        top: 580px;
+        background-image: linear-gradient(orange);
+    }
+    50%{
+        left: 00px;
+        top: 580px;
+        bottom: 900px;
+        background-image: linear-gradient(blue);
+    }
+    75%{
+        left:250px;
+
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+
+
+
+
